@@ -1,0 +1,18 @@
+Package: mcrs
+Type: Package
+Title: mCRS Package (multiclass composite reference standard using simulation)
+Version: 0.1.0
+Author: Ty Stanford
+Maintainer: Ty Stanford <tyman@lbtinnovations.com>
+Description: Functions to perform mCRS for any ordinal outcome with 2 or more classes/categories.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests:
+  testthat
+Imports:
+  dplyr,
+  tibble,
+  purrr,
+  binom
+RoxygenNote: 6.0.1

@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "quantile", "rmultinom")
+import("dplyr")
+import("tibble")
+import("purrr")
+import("binom")
