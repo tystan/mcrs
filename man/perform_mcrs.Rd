@@ -8,7 +8,7 @@ perform_mcrs(dat, index, imperfect, resolver, pos, r = 1000,
   seed = 12345678, alpha = 0.05, summ = TRUE)
 }
 \arguments{
-\item{dat}{data frame that contains the index test, imperfect truth and resolver columns}
+\item{dat}{data frame that contains the index test, imperfect truth and resolver columns (see details)}
 
 \item{index}{string of column name in \code{dat} corresponding to the index test}
 
@@ -31,6 +31,9 @@ A tibble with columns \code{param}, \code{cases}, \code{correct}, \code{est}, \c
 }
 \description{
 Performs the mCRS analysis
+}
+\details{
+Currently \code{perform_mcrs} requires \code{dat} to contain variables with levels that are consectutive integers starting at \code{1} (i.e. here the outcome levels are labelled 1, 2, 3, 4).
 }
 \examples{
 library(tibble)

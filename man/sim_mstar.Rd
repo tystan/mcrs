@@ -7,9 +7,9 @@
 sim_mstar(p_ijk, s_st_ij)
 }
 \arguments{
-\item{p_ijk}{a [resolver, index, imperfect] 3D array of probabilities. Elements are \eqn{p_{k|ij}}=P(resolver|index,imperfect).}
+\item{p_ijk}{a [resolver, index, imperfect] 3D array of probabilities. Elements are \eqn{p_{k|ij}=P(resolver | index, imperfect)}.}
 
-\item{s_st_ij}{a [index, imperfect] 2D array counts requiring a simulated resolver value}
+\item{s_st_ij}{a [index, imperfect] 2D array counts requiring a simulated resolver value.}
 }
 \value{
 a [resolver, index, imperfect] 3D array of counts. Elements are \eqn{m^*_{k|ij}} values.
