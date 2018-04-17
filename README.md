@@ -21,6 +21,8 @@ library(mcrs)
 ?perform_mcrs
 ```
 
+A PDF of the function descriptions is included in the repository as [mcrs-help.pdf](https://github.com/tystan/mcrs/blob/master/mcrs-help.pdf).
+
 ## Example usage
 
 First load the data that comes with the package: `brenton2018`.
