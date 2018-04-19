@@ -12,7 +12,7 @@ col_check(df, cols)
 \item{cols}{character vector of column names to be checked whether they exist in \code{df}}
 }
 \value{
-\code{TRUE} if all \code{cols} exist in \code{df}
+\code{TRUE} if all \code{cols} exist in \code{df}, otherwise an error is thrown
 }
 \description{
 Check a vector of column names are all contained in a suppled data frame

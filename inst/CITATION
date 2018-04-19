@@ -1,0 +1,25 @@
+bibentry(bibtype = "Article",
+         title = paste0("Clinical evaluation of {APAS Independence}: automated ",
+                        "imaging and interpretation of urine cultures using artificial ",
+                        "intelligence, integrating a novel method for unbiased ",
+                        "discrepant resolution."),
+         author = c(person("Lisa", "Brenton"),
+                    person("Darren", "Jardine"),
+                    person("Mary Jo", "Waters"),
+                    person("Tyman", "Stanford"),
+                    person("Steven", "Giglio")),
+         year = 2018,
+         url = "https://github.com/tystan/mcrs",
+         journal = "Submitted for publication",
+         textVersion =
+         paste0("L Brenton, D Jardine, MJ Waters, ",
+                "T Stanford and S Giglio (",
+                2018,
+                "). Clinical evaluation of APAS Independence: automated imaging and ",
+                "interpretation of urine cultures using artificial intelligence, ",
+                "integrating a novel method for unbiased discrepant resolution. ",
+                "Submitted for publication."))
+
+
+
+

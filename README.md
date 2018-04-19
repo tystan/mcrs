@@ -11,19 +11,26 @@ Details are available in the suplementaty material of paper:
 
 A paper to describe a generalised mCRS is currently being written.
 
+
 # Installation
 To install and load in R, run:
 ```R
 library(devtools) # see http://cran.r-project.org/web/packages/devtools/README.html
 devtools::install_github('tystan/mcrs')
 library(mcrs)
+```
+
+## Help
+```r
 ### see help file to run example
 ?perform_mcrs
 ```
 
-A PDF of the function descriptions is included in the repository as [mcrs-help.pdf](https://github.com/tystan/mcrs/blob/master/mcrs-help.pdf).
+A PDF manual of the function descriptions is included in the repository here [/inst/doc/mcrs-help.pdf](https://github.com/tystan/mcrs/blob/master/inst/doc/mcrs-help.pdf).
 
-## Example usage
+
+
+# Example usage
 
 First load the data that comes with the package: `brenton2018`.
 
@@ -81,6 +88,12 @@ get_sens_spec(table(brenton2018[["S"]], brenton2018[["A"]]), 3:4)
 |spec  |   432|     342| 0.792| 0.751| 0.827|
 
 
+# Referencing this work
+
+Please run the following to get citation information when referencing this code or mCRS.
+```r
+citation("mcrs")
+```
 
 <!--- ![](https://github.com/tystan/mcrs/blob/master/example.png) --->
 
