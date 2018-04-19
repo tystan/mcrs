@@ -58,12 +58,12 @@ To run mCRS pass the data (or any dataset in the required form) to the `perform_
 ```r
 # run mCRS analysis on brenton2018 data
 perform_mcrs(
-  brenton2018, # data
-  "A",         # index test
-  "S",         # imperfect truth
-  "P",         # resolver test (with NAs present)
-  pos = 3:4,   # the categories that are 'positives' for sens+spec calculation
-  r = 1000     # number of simulations
+  brenton2018,       # data
+  index     =  "A",  # index test
+  imperfect =  "S",  # imperfect truth
+  resolver  =  "P",  # resolver test (with NAs present)
+  pos       =  3:4,  # levels that are 'positives' for sens+spec calc
+  r         = 1000   # number of simulations
 )
 ```
 
@@ -79,7 +79,10 @@ mCRS can be compared to the index test against the imperfect truth by running th
 
 ```r
 # the sens+spec estimates using the imperfect truth only
-get_sens_spec(table(brenton2018[["S"]], brenton2018[["A"]]), 3:4)
+get_sens_spec(
+  table(brenton2018[["S"]], brenton2018[["A"]]), 
+  3:4
+)
 ```
 
 |param | cases| correct|   est|    lo|    up|
